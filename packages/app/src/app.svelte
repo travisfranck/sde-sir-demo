@@ -30,10 +30,7 @@ const viewReady = createAppViewModel(coreConfig).then(result => {
   <div class="loading-container"></div>
 {:then}
   <div class="app-container">
-    <div class="options-container">
-      <div class="layout-label">Max Visible Graphs:</div>
-      <Selector viewModel={viewModel.layoutSelector} />
-    </div>
+    <h1>SIR Simulator</h1>
 
     <div class="main-container">
       <div class="top-container">

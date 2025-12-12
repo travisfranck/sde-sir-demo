@@ -52,7 +52,7 @@ Total Population P=
 	|
 
 Infection Rate=
-	Contact Rate c*Infectivity i*Susceptible Population S*Infectious Population I/Total Population P
+	0.9 * Contact Rate c*Infectivity i*Susceptible Population S*Infectious Population I/Total Population P
 	~	People/Day
 	~	The infection rate is the total number of encounters Sc multiplied by the \
 		probability that any of those encounters is with an infectious individual \
